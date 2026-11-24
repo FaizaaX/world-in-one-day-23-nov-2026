@@ -199,7 +199,7 @@ def draw_page():
             yy += DECK.size + 4
         y = yy + 12
         d.line([(MARGIN, y), (W - MARGIN, y)], fill=FAINT, width=1)
-        y += 14
+        y += 18
 
     # ---- Footer (fixed zone at the bottom) ----
     foot_y = H - 66
